@@ -32,7 +32,7 @@ const Payment = () => {
     console.log('params:', params);
     return (
         <div>
-            <b>payemnt type</b> : {params.type}
+            <b>payemnt type</b> : {params.type} <br />
             <PaystackButton
                 {...componentProps}
             />
